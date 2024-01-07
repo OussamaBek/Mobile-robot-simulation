@@ -17,3 +17,18 @@ variables and functions of each file.
 the object by an angle theta around a point(x0,y0)
 * void deplacement(double x0,double y0): function for moving the circle 
 circle to(x+x0,y+y0)
+### Class dessin (dessin.h and dessin.cpp) :
+(inherits from class figure(public inheritance)
+* r :robot radius
+* D=0.05 : distance between wheels
+* R0=0.02 : radius of a wheel
+* t=0.1 :time interval
+* W0MAX=10 : maximum angular velocity between wheels
+* Dw0Max = 2.0f : maximum angular acceleration of wheels 
+* alp :reorientation during t
+* wd,wg :angular velocity of right and left wheel respectively
+* dr :distance covered during t
+* void draw(double x,double y): function for drawing the robot
+* void deplacement() : function to move the robot using the angular velocities of the wheels
+* void automatiquement(double xG,double yG) : function for moving the robot using angular speeds
+  
